@@ -10,8 +10,12 @@
     "test:cov": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --coverage ",
     "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --watchAll "
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guiizis/fluentsql-v2.git"
+  },
   "keywords": [],
-  "author": "test",
+  "author": "guiizis",
   "license": "ISC",
   "devDependencies": {
     "cross-env": "^7.0.3",
